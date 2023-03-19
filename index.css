@@ -1,0 +1,391 @@
+*{
+   /* font-family: impact; */
+    padding: 0;
+    margin: 0;
+}
+
+body{
+	background:#e5e5e5;
+    /*background:linear-gradient(to right, #bfdfff, #e7ceff) ;*/
+}
+/*--------------------------------------prencipal|_index------------------------------------------*/
+
+/*--------------------------------------head----------------------------------------#e5e5e5--*/
+
+
+.hom{
+    height: 100vh;
+	width: 100%;
+	background-image: url(fotos/fm_114.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	
+	
+	
+}
+.conteiner{
+	
+	width: 80%;
+	margin:auto;
+  
+
+}
+
+.opacity{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left:0;
+	top:0;
+	background-color:rgba(0, 0, 0, 0.7);
+}
+
+.head{
+    position: relative;
+    width: 100%;
+    height: 50px;
+  
+}
+
+.Elam{
+    position: absolute;
+    font-size:50px;
+    width: 40%;
+    float: left;
+    color: #fff;
+    letter-spacing:5px;  
+    font-family: impact;
+}
+.a_delHead {
+    float: right;
+    width: 40%;
+    margin-top: 30px;
+    font-family: impact;
+}
+
+.a_delHead a{
+
+    text-decoration: none;
+    color: #fff;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.a_delHead a:hover{
+    border-bottom:solid 2px #386ffc; ;
+}
+/*--------------------------------------head------------------------------------------*/
+/*--------------------------------------the body of hom------------------------------------------*/
+
+
+
+.thebody{
+    width: 100%;
+    font-family: impact;
+}
+
+.laEscuela{
+    text-align: center;
+    color: #fff;
+    margin-top: 100px;
+    font-family: impact;
+    
+}
+.laEscuelaa{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 50px;
+    font-family: impact;
+}
+
+.bothover{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hover{
+    width: 200px;
+    height: 30px;
+    border: none;
+    margin-left: 10px;
+    box-shadow: 0px 0px 0px 0px;
+    transition: 0.5s;
+    font-family: impact;
+    
+}
+
+.si{
+    background-color:#fff ;
+}
+
+ .no{
+    background-color:#386ffc; 
+}
+
+.hover:hover{
+box-shadow: 5px 5px 20px 5px ;
+}
+
+
+/*--------------------------------------the body of hom------------------------------------------*/
+/*--------------------------------------mapa ------------------------------------------*/
+.mapa{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    margin-top: 50px;
+    box-shadow: 2px 2px 5px 2px ;
+}
+
+.entremapa{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    margin-top: 25px;
+    background-image: url(fotos/fm_117.png);
+	background-size: cover;
+	background-position: center;
+
+}
+/*--------------------------------------mapa ------------------------------------------*/
+/*--------------------------------------body------------------------------------------*/
+
+
+.recidencia{
+	width: 100%;
+	font-size: 60px;
+	letter-spacing: 10px;
+	text-align: center;
+	margin-top: 100px;
+}
+.jeneral{
+  
+    width: 100%;
+  padding: 50px;
+    background-color: #fff;
+    margin-top: 100px;
+    box-shadow: 2px 2px 5px 2px ;
+}
+
+.cuadro{
+    border: none;
+   
+}
+
+
+
+
+.act{
+    
+    width: 100%;
+    margin-top: 100px;
+   
+}
+
+.activ{
+
+    width: 40%;
+    padding: 20px;
+    background-color: #fff; 
+    font-family: none;
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+/*--------------------------------------body------------------------------------------*/
+/*--------------------------------------prencipal|_index------------------------------------------*/
+/*--------------------------------------ingresacion-----------------------------------------------*/
+.headhead{
+    width: 100%;
+	height: 70px;
+	left:0;
+	top:0;
+	background-color:rgba(0, 0, 0, 0.7);
+}
+
+
+.ingreso{
+	width: 80%;
+	margin: auto;
+	background-color: #fff;
+	padding: 50px;
+	height: 800px;
+	margin-top: 50px;
+    margin-bottom:50px ;
+}
+.elingreso{
+	width: 49%;
+	float: left;
+}
+
+.pa{
+	color: #000;
+	font-family:Sans-serif ;
+}
+
+
+
+
+
+
+.vi{
+width: 350px;
+height:30px ;
+border: solid 1px #c8c8c8 ;
+background: none;
+outline: none;
+
+}
+
+
+
+.vi2 {
+	width: 350px;
+height: 90px;
+outline: none;
+border: solid 1px #c8c8c8 ;
+}
+
+
+.entrara{
+	width: 150px;
+	height: 70px;
+	font-size: 20px;
+	border: none;
+	background-color:#386ffc ;
+	box-shadow: 0px 0px 00px 0px;
+	transition: 0.3s;
+	margin-top: 200px;
+}
+
+.entrara:hover{
+box-shadow: 5px 5px 30px 5px;
+color: black;
+   
+}
+
+/*--------------------------------------ingresacion---------------------------------------------*/
+/*--------------------------------------login---------------------------------------------*/
+.lamitad{
+    width: 45%;
+    height: 600px;
+    float: left;
+    background: #fff;
+	margin-top: 100px;
+	margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.login{
+	font-family:Sans-serif ;
+    font-size: 20px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.todoelingreso{
+	
+    width: 60%;
+    margin:auto;
+    margin-top: 100px;
+}
+
+.usuacontra{
+
+height: 30px;
+width: 350px;
+background: none;
+outline: none;
+font-size: 16px;
+border: solid 1px #c8c8c8 ;
+}
+
+
+.entrar{
+	width: 120px;
+	height: 70px;
+	font-size: 20px;
+	border: none;
+	background-color:#386ffc ;
+	color: #fff;
+	box-shadow: 0px 0px 00px 0px;
+	transition: 0.3s;
+}
+.entrar:hover{
+box-shadow: 5px 5px 30px 5px;
+color: black;
+   
+}
+/*--------------------------------------login---------------------------------------------*/
+/*--------------------------------------estudiante---------------------------------------------*/
+
+
+.FotoDeEstudiante{
+float: right;
+margin-top: 20px;
+}
+
+.listanueva{
+width: 25%;
+height: 1000px;
+float: left;
+margin-top: 100px;
+border-right: solid 5px #386ffc ;
+box-shadow: 10px 10px 10px 0.2px;
+}
+
+.b{
+    width: 300px;
+    height: 30px;
+    letter-spacing: 1px;
+    background-color: #fff;
+    border: none;
+    transition: 0.3s;
+    box-shadow: 1px 1px 4px 1px;
+    margin-left: 10px;
+}
+.b:hover{
+box-shadow: 3px 4px 5px 3px;
+}
+
+.hool{
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+.anunsios{
+    width: 60% ;
+    float:left;
+    background-color: #fff;
+    margin-left: 50px;
+    padding: 30px;
+    margin-top: 100px;
+    box-shadow: 5px 5px 20px 5px;
+}
+
+.comentarios{
+    padding: 20px;
+}
+
+/*--------------------------------------estudiante---------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
